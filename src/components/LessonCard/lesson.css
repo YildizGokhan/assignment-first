@@ -1,0 +1,59 @@
+main{
+    margin: 1rem;
+}
+
+.container {
+    background-color: hsla(0,0%,100%,.2);
+    border-radius: 1rem;
+    box-shadow: 0 2px 1px rgba(0,0,0,.09), 0 4px 2px rgba(0,0,0,.09), 0 8px 4px rgba(0,0,0,.09), 0 16px 8px rgba(0,0,0,.09), 0 32px 16px rgba(0,0,0,.09);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+}
+.lesson {
+    align-items: center;
+    display: flex;
+    flex: 30% 1;
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
+
+.lesson img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    height: 80px;
+    width: 85px;
+}
+
+.lessontext {
+    margin-left: 0.5rem;
+}
+
+.lessonparagraph {
+    color: azure;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.lessonspan {
+    color: #f4a460;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+@media (max-width: 992px){
+    .lesson {
+        flex: 45% 1;
+    }
+}
+
+@media (max-width: 768px){
+    .lesson {
+        display: grid;
+        flex: 75% 1;
+        flex-direction: column;
+        place-items: center;
+    }
+}

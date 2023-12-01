@@ -1,0 +1,18 @@
+
+nav {
+    align-items: center;
+    background-color: rgba(244, 164, 96, .5);
+    display: flex;
+    height: 12vh;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: "Rubik Vinyl",cursive;;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+    /* color: #ffffff; */
+}
